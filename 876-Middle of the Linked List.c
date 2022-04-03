@@ -71,7 +71,7 @@ int main()
 
     MyLinkedList *findVal;
 
-    findVal=FindValue();
+    findVal=FindValue(printVal);
 
     printf("The Finding Value Is: %d\n", findVal->value);
 
